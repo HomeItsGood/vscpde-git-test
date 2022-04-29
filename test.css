@@ -14,7 +14,7 @@ a[href^="broken"] {
   a[href$="com"]{
     margin-left: 50px;
   }
-  a[href|="en"]{
+  a[href|lang="en"]{
     font-size: 10px;
   }
   a[href*="www"]{
