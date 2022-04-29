@@ -1,10 +1,14 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 a[href^="broken"] {
     border: 2px solid red;
   }
   a[target=_blank]{
     border: 2px solid black;
   }
-  li{
+  ul{
     margin-bottom: 16px;
   }
   a[href$="com"]{
@@ -16,7 +20,7 @@ a[href^="broken"] {
   a[href*="www"]{
     color: green
   }
-  a[title~="popular"]{
+  [title~="popular"]{
     font-size: 24px;
   }
   
