@@ -2,20 +2,13 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
+div{
+    display: inline;
+}
+span{
+    display: block;
+    background-color: yellow;
 
-
-.orange{
-    font-size: 24px;
-    color: green;
-}
-ul{
-    font-size: 24px;
-    color: orange;
-}
-p.again{
-    font-size: 24px;
-    color: orange;
-}
-main{
-    font-size: 24px;
+    width: 200px;
+    height: 100px;
 }
