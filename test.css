@@ -11,10 +11,10 @@ a[href^="broken"] {
   li{
     margin-bottom: 16px;
   }
-  a[href$="com"]{
+  a[href$=".com"]{
     margin-left: 50px;
   }
-  a[href|lang="en"]{
+  a[lang|="en"]{
     font-size: 10px;
   }
   a[href*="www"]{
