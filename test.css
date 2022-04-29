@@ -1,14 +1,22 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-div{
-    display: inline;
-}
-span{
-    display: block;
-    background-color: yellow;
-
-    width: 200px;
-    height: 100px;
-}
+a[href^="broken"] {
+    border: 2px solid red;
+  }
+  a[target=_blank]{
+    border: 2px solid black;
+  }
+  li{
+    margin-bottom: 16px;
+  }
+  a[href$="com"]{
+    margin-left: 50px;
+  }
+  a[href|="en"]{
+    font-size: 10px;
+  }
+  a[href*="www"]{
+    color: green
+  }
+  a[title~="popular"]{
+    font-size: 24px;
+  }
+  
