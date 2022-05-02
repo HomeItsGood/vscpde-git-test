@@ -6,17 +6,17 @@
     background-color: green;
     color:white
 }
-.to-be-learned ol {
+.to-be-learned ol{
     background-color: orange;
     color: green
 }
-.already-learned  code {
+.already-learned code {
 background-color: orange;
 }
 .to-be-learned  code{
 background-color: green
 }
-#special1 + li h4 > code{
+#special1 + li > h4 code{
 border: solid blue;
 }
 #special2 ~ li {
