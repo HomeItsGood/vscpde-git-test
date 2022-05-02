@@ -12,12 +12,11 @@ img[alt^="Pollution"] {
 
 ul [data-description~="even"]{
     background-color: gray;
-    font-size: 24px;
 }
-ul[data-description*="even"]{
-    font-size: 24px;
+ul [data-description*="even"]{
+   font-size: 24px;
+}
 
-}
 a[href^="http"]{
 color: green
 }
