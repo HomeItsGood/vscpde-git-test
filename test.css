@@ -4,23 +4,24 @@
  */
 
 img[src$=".jpg"]{
-    margin-left: 250 px;
+    margin-left: 50px;
 }
-img[alt^="Pollution"] {
-    border: 5px dashed red;
     
-}
+
 ul [data-description~="even"]{
     background-color: gray;
-    font-size: 24px;
+    
 }
-ul[data-description="even"]{
+ul[data-description*="even"]{
     font-size: 24px;
 
 }
 a[href^="http"]{
 color: green
 }
-span [lang|="en"]{
+span [lang*="en"]{
+    font-size:100px;
+}
+ span [lang="en"]{
     font-size:100px;
 }
