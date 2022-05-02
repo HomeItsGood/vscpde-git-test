@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 
 img[src$=".jpg"]{
     margin-left: 250 px;
@@ -5,16 +9,16 @@ img[src$=".jpg"]{
 img[alt^="Pollution"] {
     border: 5px dashed red;
 }
-li [data-description~=even]{
+ul [data-description~="even"]{
     background-color: gray;
 }
-li[data-description="even"]{
+ul[data-description="even"]{
     font-size: 24px;
 
 }
-a[href*="http"]{
+a[href^="http"]{
 color: green
 }
-span[lang|="en,en-gb,en-us"]{
-    font-size:50px;
+span [lang|="en-gb en-us"]{
+    font-size:100px;
 }
