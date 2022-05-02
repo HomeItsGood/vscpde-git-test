@@ -2,14 +2,29 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-.already-learned {
+ .already-learned {
     background-color: green;
     color: white
 }
-.already-learned code {
+
+.already-learned li code {
     background-color: orange;
+
 }
-.to-be-learned ol{
-    background-color:orange;
-    color:green
+
+.to-be-learned ol {
+    background-color: orange;
+    color: green
+}
+
+.to-be-learned code {
+    background-color: green
+}
+
+#special1+li h4 code {
+    border: solid blue;
+}
+
+#special2~li {
+    font-size: 24px;
 }
