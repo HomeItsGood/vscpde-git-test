@@ -21,9 +21,6 @@ ul[data-description*="even"]{
 a[href^="http"]{
 color: green
 }
-span [lang|="en"]{
-    font-size:100px;
-}
- span [lang="en"]{
-    font-size:100px;
+span[lang|="en"]{
+    font-size: 28px;
 }
