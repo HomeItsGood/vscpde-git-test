@@ -13,9 +13,9 @@ li:last-child > span{
 background-color: black;
 color: white;
 }
-
-
-
+li:nth-child(1) > span{
+    font-weight: bold;
+}
 li:nth-child(even)>span{
     margin-left: 16px;
 }
