@@ -16,8 +16,8 @@ background-color: orange;
 .to-be-learned  code{
 background-color: green
 }
-#special1 + h4  ~ code{
-    border: 2 px solid blue;
+#special1 + li h4 > code{
+border: solid blue;
 }
 #special2 ~ li {
     font-size: 24px;
