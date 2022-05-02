@@ -2,7 +2,7 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
- .already-learned ol{
+ .already-learned ol > li{
     background-color: green;
     color:white
 }
