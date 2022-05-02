@@ -8,9 +8,11 @@ img[src$=".jpg"]{
 }
 img[alt^="Pollution"] {
     border: 5px dashed red;
+    
 }
 ul [data-description~="even"]{
     background-color: gray;
+    font-size: 24px;
 }
 ul[data-description="even"]{
     font-size: 24px;
@@ -19,6 +21,6 @@ ul[data-description="even"]{
 a[href^="http"]{
 color: green
 }
-span [lang|="en-gb en-us"]{
+span [lang|="en"]{
     font-size:100px;
 }
