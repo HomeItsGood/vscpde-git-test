@@ -1,21 +1,20 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-li{
-    margin-bottom: 16px;
+
+img[src$=".jpg"]{
+    margin-left: 250 px;
 }
-ol li span{
-    background-color: green;
-    color: white;
+img[alt^="Pollution"] {
+    border: 5px dashed red;
 }
-ul li span{
-    background-color: orange;
-    color: white;
+li [data-description~=even]{
+    background-color: gray;
 }
-#special + li span{
-    border: 3px solid red
+li[data-description="even"]{
+    font-size: 24px;
+
 }
-#special ~ li{
-    margin-left: 16px;
+a[href*="http"]{
+color: green
+}
+span[lang|="en,en-gb,en-us"]{
+    font-size:50px;
 }
