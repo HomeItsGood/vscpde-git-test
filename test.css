@@ -6,7 +6,7 @@
     background-color: green;
     color:white
 }
-.to-be-learned ol li{
+.to-be-learned ol {
     background-color: orange;
     color: green
 }
@@ -16,6 +16,9 @@ background-color: orange;
 .to-be-learned  code{
 background-color: green
 }
- #special > h4  code{
-    border: 2 px solid blue
+#special1 + h4  ~ code{
+    border: 2 px solid blue;
+}
+#special2 ~ li {
+    font-size: 24px;
 }
