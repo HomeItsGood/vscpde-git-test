@@ -2,6 +2,9 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
+ li {
+     margin-bottom: 16px;
+ }
  
 ul > li:first-child > span{
     background-color: red;
@@ -15,7 +18,7 @@ color: white;
 li:nth-child(even)>span{
     margin-left: 16px;
 }
- .paragraphs p:nth-child(1) {
+  p:nth-child(1) {
     background-color: gray;
 }
  p:nth-of-type(3) {
