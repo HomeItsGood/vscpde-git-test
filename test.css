@@ -2,24 +2,20 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-
-img[src$=".jpg"]{
-    margin-left: 50px;
+ .already-learned ol li{
+    background-color: green;
+    color:white
 }
-img[alt^="Pollution"] {
-    border: 5px dashed red;
+.to-be-learned ol  li{
+    background-color: orange;
+    color: green
 }
-
-ul [data-description~="even"]{
-    background-color: gray;
+.already-learned  code {
+background-color: orange;
 }
-ul [data-description*="even"]{
-   font-size: 24px;
+.to-be-learned > code{
+background-color: green
 }
-
-a[href^="http"]{
-color: green
-}
-span[lang|="en"]{
-    font-size: 28px;
+#special1 + h4 ~ code{
+    border: 2 px solid blue
 }
