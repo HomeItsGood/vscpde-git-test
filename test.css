@@ -9,3 +9,7 @@
 .already-learned code {
     background-color: orange;
 }
+.to-be-learned ol{
+    background-color:orange;
+    color:green
+}
