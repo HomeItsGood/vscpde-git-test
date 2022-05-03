@@ -5,7 +5,7 @@
 body{
     background-color: #bdc3c7;
 }
-h1 +p{
+h1{
    color: #9b59b6
 }
 h2{
@@ -29,16 +29,13 @@ input{
 p{
     font: 25px;
 }
-input[type="text"] {
+input[type="text"]{
 background-color: gray;
-}
-label[type="password"]{
-border: gray;
 }
 p:nth-child(3){
 background-color: yellow;
 }
-p:nth-of-type(3)>p:nth-of-type(2){
+body > div p:nth-of-type(3)>p:nth-of-type(2){
     border: 5px solid white;
 }
 em{
