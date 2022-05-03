@@ -29,10 +29,10 @@ input{
 p{
     font: 25px;
 }
-input[type="text"]{
+[type="text"]{
 background-color: gray;
 }
-p:nth-child(3){
+div > p:last-of-type(){
 background-color: yellow;
 }
 body > div p:nth-of-type(3)>p:nth-of-type(2){
