@@ -7,7 +7,7 @@
 }
 
 .radius{
-border-radius: 15px;
+border-radius: 16px;
 width: 100px;
 height: 50px;
 background-color: green;
@@ -21,7 +21,7 @@ margin: 50px;
     margin: 50px;
 }
 .cryg{
-    border-radius: 50%;
+    border-radius: 100px;
     width: 100px;
     height: 100px;
     background-color: aqua;
