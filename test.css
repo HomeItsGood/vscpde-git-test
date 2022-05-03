@@ -29,8 +29,11 @@ input{
 p{
     font-size: 25px;
 }
-input[type="text"]{
+input[type="text"] {
 background-color: gray;
+}
+[type="password"]{
+border: gray;
 }
 p:nth-child(3){
 background-color: yellow;
