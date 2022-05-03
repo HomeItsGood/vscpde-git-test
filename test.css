@@ -1,3 +1,10 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
+ *{
+box-sizing: border-box;
+ }
 .element{
     border: 3px solid;
     background-color: aqua;
