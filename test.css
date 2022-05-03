@@ -6,7 +6,7 @@ body{
     background-color: #bdc3c7;
 }
 h1{
-   color: #9b59b6
+    color: #bdc3c7;
 }
 h2{
     color: orange;
@@ -14,32 +14,15 @@ h2{
 li{
     color: blue;
 }
-{
+p{
     background-color: yellow;
 }
 input{
-    border: 3px solid red;
+    border: 3px solid red
 }
 .hello{
-    background-color: white;
+    background-color:white
 }
 #special{
-    border: 2px solid blue; 
-}
-p{
-    font-size: 25px;
-}
-[type="text"]{
-background-color: gray;
-
-}
-div>p:nth-last-of-type(3){
-background-color: yellow;
-}
-div > p:nth-of-type(3) > p:nth-of-type(2){
-    border: 5px solid white;
-}
-em{
-    color:white;
-    font-size: 20px;
+   borde: 2px solid blue
 }
