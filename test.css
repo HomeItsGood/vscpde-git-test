@@ -1,15 +1,16 @@
-*{
+
+* {
     box-sizing: border-box;
 }
 
 .rentagle{
     height: 200px;
-    width: 400px;
+    width: 420px;
     font-size: 24px;
 background-color: bisque;
-margin: 50px 100px;
+margin: 50px 100px 50px 100px;
 padding: 20px;
-border-width: 10px 15px 20px 25px;
+border-width: 10px 20px;
 border-style: solid solid dashed dashed;
 border-color: firebrick green burlywood aqua;
 }
