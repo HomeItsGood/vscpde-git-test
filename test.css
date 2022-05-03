@@ -2,12 +2,14 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
- *{
-box-sizing: content-box;
- }
+
+ 
 .element{
     border: 3px solid;
     background-color: aqua;
     margin: 50px;
     padding: 50px;
+}
+span{
+    margin: 50px;
 }
