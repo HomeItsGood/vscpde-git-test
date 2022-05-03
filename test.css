@@ -5,13 +5,13 @@
 body{
     background-color: #bdc3c7;
 }
-h1{
+h1, p {
    color: #9b59b6
 }
 h2{
     color: orange;
 }
-li{
+ul{
     color: blue;
 }
 p{
@@ -27,18 +27,18 @@ input{
     border: 2px solid blue; 
 }
 p{
-    font-size: 25px;
+    font: 25px;
 }
 input[type="text"] {
 background-color: gray;
 }
-[type="password"]{
+label[type="password"]{
 border: gray;
 }
 p:nth-child(3){
 background-color: yellow;
 }
-p:nth-child(2){
+p:nth-of-type(3)>p:nth-of-type(2){
     border: 5px solid white;
 }
 em{
