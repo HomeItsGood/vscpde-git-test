@@ -6,7 +6,7 @@ body{
     background-color: #bdc3c7;
 }
 h1{
-    color: #bdc3c7;
+    color: #9b59b6;
 }
 h2{
     color: orange;
@@ -24,5 +24,5 @@ input{
     background-color:white
 }
 #special{
-   borde: 2px solid blue
+   border: 2px solid blue
 }
