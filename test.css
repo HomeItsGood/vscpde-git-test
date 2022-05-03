@@ -2,7 +2,13 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
+ div{
+    background-color: antiquewhite;
+
+ }
 .rectangle{
+    
+
     box-sizing: content-box;
     border: 8px solid black;
     padding: 16px;
