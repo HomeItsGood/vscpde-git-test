@@ -3,7 +3,7 @@
  *   All rights reserved.
  */
  *{
-box-sizing: border-box;
+box-sizing: content-box;
  }
 .element{
     border: 3px solid;
