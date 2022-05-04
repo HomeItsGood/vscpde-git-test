@@ -4,31 +4,31 @@ box-sizing: border-box;
 .block_red{
     
     float: left;
-    width: 196px;
+    width: 204px;
 height: 200px;
     background-color: red;
     
 }
 .block_green{
     float: left;
-    width: 200px;
+    width: 204px;
     height: 200px;
     background-color: green;
 }
 .block_blue{
     float: left;
-    width: 200px;
+    width: 204px;
     height: 200px;
     background-color: blue;
 }
 .block_yellow{
     float: left;
-    width: 200px;
+    width: 204px;
     height: 200px;
 background-color: yellow
 }
 .block_black{
-    width: 200px;
+    width: 204px;
     height: 200px;
 background-color: black;
 float: left
