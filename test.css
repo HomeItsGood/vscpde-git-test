@@ -2,21 +2,20 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-*{
-    box-sizing: border-box;
-}
-.container{
-width: 50%;
-float: left
-}
-.red{
+.block_red{
+    height:200px;
     background-color: red;
-    float: right
 }
-.green{
-    background-color: green;
-    float: left;
+.block_green{
+    height:200px;
+background-color: green;
 }
-.footer{
-    clear: both;
+.block_blue{
+    height:200px;
+background-color: blue;
+}
+.block_yellow{
+    height:200px;
+background-color: yellow;
+
 }
