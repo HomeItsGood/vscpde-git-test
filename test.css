@@ -1,24 +1,25 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
+
 .block_red{
+    float: left;
     width: 200px;
 height: 200px;
     background-color: red;
     
 }
 .block_green{
+    float: left;
     width: 200px;
     height: 200px;
     background-color: green;
 }
 .block_blue{
+    float: left;
     width: 200px;
     height: 200px;
     background-color: blue;
 }
 .block_yellow{
+    float: left;
     width: 200px;
     height: 200px;
 background-color: yellow
@@ -27,5 +28,6 @@ background-color: yellow
     width: 200px;
     height: 200px;
 background-color: black;
+float: left
 
 }
