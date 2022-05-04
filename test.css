@@ -19,7 +19,7 @@ height: 200px;
     background-color: green;
 }
 .block_blue{
-  display: inline-block;
+  z-index: 1;
    float: left;
     width: 204px;
     height: 200px;
