@@ -2,9 +2,9 @@
 box-sizing: border-box;
 }
 .block_red{
-    z-index: 4px;
+    
     float: left;
-    width: 200px;
+    width: 196px;
 height: 200px;
     background-color: red;
     
