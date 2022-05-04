@@ -4,7 +4,7 @@
  */
 
 .block_red{
-    
+  
     float: left;
     width: 204px;
 height: 200px;
@@ -19,13 +19,14 @@ height: 200px;
     background-color: green;
 }
 .block_blue{
-    float: left;
+  display: inline-block;
+   float: left;
     width: 204px;
     height: 200px;
     background-color: blue;
 }
 .block_yellow{
-    position: relative;
+  
     float: left;
     width: 204px;
     height: 200px;
