@@ -3,7 +3,9 @@
  *   All rights reserved.
  */
 *{
+   
 box-sizing: border-box;
+
 }
 .block_red{
     width: 204px;
@@ -12,10 +14,8 @@ background-color: red;
 float:left;
 }
 .block_green{
-    padding-right: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    margin-left: 0px ;
+    display: table-cell;
+    display: table;
     width: 204px;
 height: 200px;
 background-color: green;
