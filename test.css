@@ -2,19 +2,14 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-body{
-    
-    float: left;
-    padding: 0;
-    margin: 0;
-    display:inline;
-}
+
+
 *{
     
     box-sizing: border-box;
 }
 .block_red{
-  
+   
     float: left;
     width: 204px;
 height: 200px;
@@ -22,8 +17,6 @@ height: 200px;
     
 }
 .block_green{
-    padding: 0;
-    margin: 0;
     float: left;
     width: 204px;
     height: 200px;
@@ -33,7 +26,7 @@ height: 200px;
     padding: 0;
     margin: 0;
    float: left;
-    width: 203px;
+    width: 204px;
     height: 200px;
     background-color: blue;
 }
@@ -46,9 +39,14 @@ height: 200px;
 background-color: yellow
 }
 .block_black{
-   
+    padding-left: 0;
+    margin-left: 0;
+    padding-right:  0;
+   margin-right: 0;
     width: 204px;
     height: 200px;
 background-color: black;
-float: left
+float: left;
+
+
 }
