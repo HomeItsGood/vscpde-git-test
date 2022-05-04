@@ -2,51 +2,39 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-
-
 *{
-    
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 .block_red{
-   
-    float: left;
     width: 204px;
 height: 200px;
-    background-color: red;
-    
+background-color: red;
+float:left;
 }
 .block_green{
-    float: left;
     width: 204px;
-    height: 200px;
-    background-color: green;
+height: 200px;
+background-color: green;
+float:left;
 }
+
 .block_blue{
-    padding: 0;
-    margin: 0;
-   float: left;
     width: 204px;
-    height: 200px;
-    background-color: blue;
+height: 200px;
+background-color: blue;
+float:left;
 }
+
 .block_yellow{
-    padding: 0;
-    margin: 0;
-    float: left;
     width: 204px;
-    height: 200px;
-background-color: yellow
+height: 200px;
+background-color: yellow;
+float:left;
 }
+
 .block_black{
-    padding-left: 0;
-    margin-left: 0;
-    padding-right:  0;
-   margin-right: 0;
     width: 204px;
-    height: 200px;
+height: 200px;
 background-color: black;
-float: left;
-
-
+float:left;
 }
