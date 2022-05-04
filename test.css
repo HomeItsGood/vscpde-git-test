@@ -12,19 +12,15 @@
     height: 40px;
     
 }
-
-.nav-list li{
+.navigation{
+    margin-left: 16px;
+}
+.nav-list li {
     position: relative;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-bottom: 5px;
-    display: inline-block;
+    display: inline;
     height: 40px;
     color:white;
-line-height: center;
-margin-left: 16px;
-
+line-height: normal;
 }
 main{
     background-color: beige;
@@ -41,9 +37,9 @@ margin: 0 auto;
 top:50%;
 transform: translate(0,-50%);
 }
-
-.navigation{
-   display: inline;
+.content{
+    padding: 0;
+    margin:0;
 }
 
 .ear_right{
