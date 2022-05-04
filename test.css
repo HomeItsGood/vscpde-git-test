@@ -6,22 +6,30 @@
      box-sizing: border-box;
  }
 .header{
-    width: 100%;
-    position:fixed;
-    background-color: darkturquoise;
+    background-color: darkturquoise ;
     height: 40px;
-    
+}
+ul.{
+    padding:0;
+    margin: 0;
+}
+li{
+    margin-left: 16px;
+    display: inline;
+    line-height:40px;
+}
+nav{
+    height:40px;
+}
+.nav-list{
+
+    padding:0;
 }
 .navigation{
-    margin-left: 16px;
-}
-.nav-list li {
-    position: relative;
     display: inline;
-    height: 40px;
-    color:white;
-line-height: normal;
+    
 }
+
 main{
     background-color: beige;
     height:5000px
@@ -38,6 +46,7 @@ top:50%;
 transform: translate(0,-50%);
 }
 .content{
+
     padding: 0;
     margin:0;
 }
