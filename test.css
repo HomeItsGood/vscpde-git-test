@@ -2,7 +2,9 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-
+*{
+    box-sizing: border-box;
+}
 .block_red{
   
     float: left;
@@ -12,21 +14,22 @@ height: 200px;
     
 }
 .block_green{
-    
+    padding: 0;
+    margin: 0;
     float: left;
     width: 204px;
     height: 200px;
     background-color: green;
 }
 .block_blue{
- margin: 0;
+ 
    float: left;
     width: 204px;
     height: 200px;
     background-color: blue;
 }
 .block_yellow{
-  
+  float: bottom;
     float: left;
     width: 204px;
     height: 200px;
