@@ -2,20 +2,26 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-.block_red{
-    height:200px;
-    background-color: red;
-}
-.block_green{
-    height:200px;
-background-color: green;
-}
-.block_blue{
-    height:200px;
-background-color: blue;
-}
-.block_yellow{
-    height:200px;
-background-color: yellow;
+.header{
+    height: 50px;
+    background-color: yellow;
 
+}
+.footer{
+    height: 50px;
+    background-color: green;
+    clear: both;
+
+}
+.content{
+    height: 500px;
+    float: left;
+    background-color: pink;
+    width: 80%;
+}
+.sidebar{
+    background-color: gray;
+    height: 500px;
+    float: left;
+    width: 20%;
 }
