@@ -15,7 +15,7 @@
 
 .nav-list li{
     position: relative;
-left: 20px;
+    padding: 0;
 bottom: 5px;
     display: inline-block;
     height: 40px;
