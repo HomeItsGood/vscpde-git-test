@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 
 .block_red{
     
@@ -20,12 +24,14 @@ height: 200px;
     background-color: blue;
 }
 .block_yellow{
+    position: left;
     float: left;
     width: 204px;
     height: 200px;
 background-color: yellow
 }
 .block_black{
+   
     width: 204px;
     height: 200px;
 background-color: black;
