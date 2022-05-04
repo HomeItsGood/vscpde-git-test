@@ -2,6 +2,7 @@
 box-sizing: border-box;
 }
 .block_red{
+    z-index: 4px;
     float: left;
     width: 200px;
 height: 200px;
@@ -31,5 +32,4 @@ background-color: yellow
     height: 200px;
 background-color: black;
 float: left
-
 }
