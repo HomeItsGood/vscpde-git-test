@@ -3,22 +3,29 @@
  *   All rights reserved.
  */
 .block_red{
+    width: 200px;
 height: 200px;
     background-color: red;
+    
 }
 .block_green{
+    width: 200px;
     height: 200px;
     background-color: green;
 }
 .block_blue{
+    width: 200px;
     height: 200px;
     background-color: blue;
 }
 .block_yellow{
+    width: 200px;
     height: 200px;
 background-color: yellow
 }
 .block_black{
+    width: 200px;
     height: 200px;
-background-color: black
+background-color: black;
+
 }
