@@ -10,11 +10,15 @@
     height: 40px;
 }
 ul.{
+   
+
     padding:0;
     margin: 0;
 }
 li{
+    color: white;
     margin-left: 16px;
+    color: white;
     display: inline;
     line-height:40px;
 }
@@ -27,7 +31,6 @@ nav{
 }
 .navigation{
     display: inline;
-    
 }
 
 main{
