@@ -25,7 +25,9 @@ display: flex;
     list-style-type: none;
 }
 .navigation_item{
-    margin-right: 10px;
+
+   margin-right: 16px;
+
 }
 .page{
     display: flex;
@@ -46,4 +48,24 @@ display: flex;
 .news{
     width:200px;
     background-color: gray;
+    
+
+
+}
+h2{
+display: flex;
+justify-content: center;
+margin-top: 16px;
+margin-bottom: 16px;
+
+}
+ul{
+    list-style-type: none;
+    margin-left: 16px;
+}
+.navigation_li{
+display: flex;
+height: 40px;
+flex-direction: column;
+
 }
