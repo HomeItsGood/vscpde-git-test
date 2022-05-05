@@ -6,13 +6,12 @@ div {
    
     display: flex;
     flex-wrap: wrap;
-    margin: 8px;
 }
 .block{
-
+    margin: 8px;
     width: 100px;
     height: 100px;
-    
+    flex-shrink: 0;
 }
 body{
 }
