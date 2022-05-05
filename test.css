@@ -2,103 +2,18 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
- *{
-     box-sizing: border-box;
- }
-
-.header{
-    background-color: darkturquoise ;
-    height: 40px;
-    position:fixed;
-    left:0;
-    right:0;
-z-index: 102;
+.horizontal{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
 }
-ul{
-margin:0;   
-}
-.nav-list li{
-    float:left;
-    height:40px;
-    overflow: hidden;
-    color: white;
-    margin-left: 16px;
-    line-height:40px;
-    padding:0;
-}
-nav.navigation{
-    position:fixed;
-width: 500px;    
-margin:0;
-    height:40px;
+.vertical{
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
-
-.navigation{
- 
-}
-
-main{
-    background-color: beige;
-    height:5000px
-}
-.head{
-background-color:aquamarine;
-height: 200px;
-width: 200px;
-position: absolute;
-left: 0;
-right: 0;
-margin: 0 auto;
-top:50%;
-transform: translate(0,-50%);
-}
-.content{
-
-    padding: 0;
-    margin:0;
-}
-
-.ear_right{
-    margin: 0 auto;
-    bottom: 60px;
-    left: 40px;
-    position: relative;
-    float:right;
-    height:60px;
-    width: 40px;
-    background-color: brown;
-}
-.ear_left{
-    position: relative;
-    bottom: 60px;
-    right: 40px;
-    height:60px;
-    width: 40px;
-    background-color: brown;
-}
-
-
-.eye_left{
-    position: absolute;
-    top: 80px;
-    left: 40px;
-    height:60px;
-    width: 40px;
-    background-color: brown;
-}
-.eye_right{
-    position: absolute;
-    right: 40px;
-    top:80px;
-    height:40px;
-    width: 60px;
-    background-color: brown;
-}
-
-.eye{
-    background-color:gray;
-    border-radius: 50%;
-    height: 30px;
-    width:30px;
-}
