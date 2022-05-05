@@ -23,8 +23,10 @@ display: flex;
     margin:0;
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
 .navigation_item{
+    margin-left: 16px;
    margin-right: 16px;
 
 }
