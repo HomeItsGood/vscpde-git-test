@@ -66,6 +66,6 @@ ul{
 .navigation_li{
 display: flex;
 height: 40px;
-flex-direction: column;
-
+position: relative;
+right:40px; 
 }
