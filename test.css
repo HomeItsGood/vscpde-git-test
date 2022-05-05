@@ -12,14 +12,13 @@
     position:fixed;
     left:0;
     right:0;
-    
 
 }
 ul{
 margin:0;   
 }
 .nav-list li{
-    float: left;
+    float:left;
     height:40px;
     overflow: hidden;
     color: white;
@@ -28,6 +27,7 @@ margin:0;
     padding:0;
 }
 nav.navigation{
+    position:fixed;
 width: 500px;    
 margin:0;
     height:40px;
