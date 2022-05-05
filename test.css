@@ -11,7 +11,7 @@
     position:fixed;
     left:0;
     right:0;
-    position:absolute;
+    
 
 }
 ul{
@@ -26,6 +26,7 @@ li{
     margin-left: 16px;
     color: white;
     line-height:40px;
+    width: 75px;
 }
 nav{
     height:40px;
