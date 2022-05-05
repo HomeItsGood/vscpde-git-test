@@ -19,10 +19,9 @@ ul{
 margin:0;   
 }
 .nav-list li{
-    
+    float: right;
     height:40px;
     overflow: hidden;
-    float: left;
     color: white;
     margin-left: 16px;
     line-height:40px;
