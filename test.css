@@ -11,6 +11,7 @@
     position:fixed;
     left:0;
     right:0;
+    position:absolute;
 
 }
 ul{
@@ -18,24 +19,20 @@ ul{
     margin: 0;
 }
 li{
+    height:40px;
     overflow: hidden;
     float: left;
-    margin-left: 16px;
     color: white;
     margin-left: 16px;
     color: white;
     line-height:40px;
 }
 nav{
-overflow: hidden;
     height:40px;
 }
-.nav-list{
 
-    padding:0;
-}
+
 .navigation{
-    display: inline;
 }
 
 main{
