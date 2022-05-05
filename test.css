@@ -51,12 +51,12 @@ display: flex;
     width:200px;
     background-color: gray;
     
-
+}
 h2{
 display: flex;
 justify-content: center;
-margin-top: 20px;
-bottom: 20px;
+margin-top: 16px;
+bottom: 16px;
 
 }
 ul{
