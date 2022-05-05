@@ -5,6 +5,7 @@
 *{
     box-sizing: border-box;
 }
+
 .header{
     height: 40px;
     background-color: yellow;
@@ -20,13 +21,13 @@ display: flex;
     margin:auto;
 }
 .navigation{
+    padding: 16px;
     margin:0;
     display: flex;
     list-style-type: none;
-    align-items: center;
 }
 .navigation_item{
-    margin-left: 16px;
+
    margin-right: 16px;
 
 }
@@ -51,8 +52,6 @@ display: flex;
     background-color: gray;
     
 
-
-}
 h2{
 display: flex;
 justify-content: center;
