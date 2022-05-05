@@ -5,6 +5,7 @@
  *{
      box-sizing: border-box;
  }
+
 .header{
     background-color: darkturquoise ;
     height: 40px;
@@ -17,22 +18,25 @@
 ul{
 margin:0;   
 }
-li{
+.nav-list li{
+    
     height:40px;
     overflow: hidden;
     float: left;
     color: white;
     margin-left: 16px;
-    
     line-height:40px;
+    padding:0;
 }
-nav{
-width: 33%;
+nav.navigation{
+    width: 500px;
+margin:0;
     height:40px;
 }
 
 
 .navigation{
+ 
 }
 
 main{
