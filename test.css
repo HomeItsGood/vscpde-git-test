@@ -19,7 +19,7 @@ ul{
 margin:0;   
 }
 .nav-list li{
-    float: right;
+    float: left;
     height:40px;
     overflow: hidden;
     color: white;
@@ -28,7 +28,7 @@ margin:0;
     padding:0;
 }
 nav.navigation{
-    width: 500px;
+width: 500px;    
 margin:0;
     height:40px;
 }
