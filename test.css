@@ -6,16 +6,23 @@
  *{
      box-sizing: border-box;
  }
-h1{
+ 
+header{
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
  
 }
 .article{
+
     background-color: bisque;
     margin: 8px;
     padding: 16px;
     flex-basis: 300px;
     
+}
+h2{
+    display: flex;
+    margin-top: 20px;
+    bottom:20px;
 }
