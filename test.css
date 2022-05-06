@@ -1,19 +1,12 @@
-* {
-    box-sizing: border-box;
-  }
-  header {
-    text-align: center;
-  }
-  .articles-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .article {
-    flex-basis: 300px;
-    flex-shrink: 0;
-    flex-grow: 1;
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-  }
-  
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
+.container div:nth-child(1) {
+    display: none;
+}
+.container div:nth-child(2) {
+    visibility: hidden;
+}
+..container div:nth-child(3) {
+    visibility: visible;
