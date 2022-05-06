@@ -2,11 +2,24 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-.container div:nth-child(1) {
-    display: none;
-}
-.container div:nth-child(2) {
-    visibility: hidden;
-}
-..container div:nth-child(3) {
-    visibility: visible;
+
+ .articles {
+    display: flex;
+  }
+  
+  div > div {
+    margin: 16px;
+    width: 150px;
+    height: 100px;
+    background-color: beige;
+  }
+  .cropped {
+    overflow: hidden;
+  }
+  .both-scrolls {
+    overflow: scroll;
+  }
+  .vertical-scroll {
+    overflow: auto;
+  }
+  
