@@ -17,9 +17,10 @@ flex-shrink: 0;
 
 }
 .articles-list{
+min-height: max-content;
     display:flex;
     flex-wrap: wrap;
-    
-    width: 400px;
+    flex-basis: 300px;
+    width: 472px;
 
 }
