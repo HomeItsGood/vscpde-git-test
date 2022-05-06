@@ -16,6 +16,9 @@ header{
 }
 .article{
 
+    height: 100%;
+    float: left;
+    width: 400px;
     background-color: bisque;
     margin: 8px;
     padding: 16px;
@@ -26,4 +29,5 @@ h2{
     display: flex;
     margin-top: 20px;
     bottom:20px;
+
 }
