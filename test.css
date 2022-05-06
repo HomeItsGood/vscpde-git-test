@@ -2,32 +2,24 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-
- *{
-     box-sizing: border-box;
- }
-
- body
-header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
- 
+h1{
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 .article{
-
-    height: 100%;
-    float: left;
-    width: 400px;
-    background-color: bisque;
+    flex-basis: 300px;
+    flex-grow: 1;
     margin: 8px;
     padding: 16px;
-    flex-basis: 300px;
-    
+background-color: bisque;
+flex-shrink: 0;
+
 }
-h2{
-    display: flex;
-    margin-top: 20px;
-    bottom:20px;
+.articles-list{
+    display:flex;
+    flex-wrap: wrap;
+    
+    width: 400px;
 
 }
