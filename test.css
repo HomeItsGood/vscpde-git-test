@@ -3,23 +3,19 @@
  *   All rights reserved.
  */
 * {
-    box-sizing: border-box;}
-
-.menu-button{
-    padding: 16px;
+    box-sizing: border-box;
+    
+  }
+  .dropdown {
     position: relative;
+    margin: 16px;
+    padding: 16px;
+    display: block;
+    background-color: darkgreen;
+    opacity: 0.8;
     display: inline-block;
     color: white;
     cursor: pointer;
-    background-color: darkgreen;
-    opacity: 0.8;
-  
-}
-
-  
-  .dropdown {
-    margin: 16px;
-    display: block;
   }
   .menu-list {
     position: absolute;
@@ -27,7 +23,7 @@
     right: 0;
     top: 50px;
     margin: 0;
-    padding: 0;
+    padding: 16px;
     background-color: lightcyan;
     display: none;
     color: black;
