@@ -8,10 +8,7 @@
   .dropdown {
       margin: 16px;
     position: relative;
-    opacity: 0.8;
     display: inline-block;
-    color: white;
-    cursor: pointer;
   }
   .menu-button{
     position: relative;
@@ -25,7 +22,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 30px;
+    top:34px;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
