@@ -2,25 +2,27 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-=* {
-    box-sizing: border-box;
+* {
+    box-sizing: border-box;}
+
+    .dropdown{
+        position: relative;
+        display:inline-block;
+margin: 16px;
+    
   }
-  .dropdown {
-    position: relative;
-    margin: 16px;
-    padding: 16px;
-    background-color: darkgreen;
-    opacity: 0.8;
-    display: inline-block;
-    color: white;
-    cursor: pointer;
-    height: 34px;
+  .menu-button{
+      padding: 16px;
+      background-color:darkgreen;
+      opacity: 0.8;
+      color: white;
+      cursor: pointer;
   }
   .menu-list {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50px;
+    top: 30px;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
@@ -37,11 +39,12 @@
   }
   .dropdown:hover {
     opacity: 1;
+     
+    font-size: 16px;
   }
   .dropdown:hover .menu-list {
     display: block;
   
-    font-size: 16px;
   }
   .menu-list:hover {
     background-color: ghostwhite;
