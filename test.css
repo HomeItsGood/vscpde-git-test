@@ -33,7 +33,7 @@
  
 }
 .menu-item:nth-child(2){
-padding: 16px;
+  padding: auto;
 }
 
 .menu-item {
