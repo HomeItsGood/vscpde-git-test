@@ -1,18 +1,14 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
 * {
     box-sizing: border-box;
   }
   .dropdown {
-      width: auto;
-      height: auto;
     position: relative;
     margin: 16px;
     padding: 16px;
+    display: block;
     background-color: darkgreen;
     opacity: 0.8;
+  
     display: inline-block;
     color: white;
   
@@ -31,11 +27,9 @@
     min-width: 120px;
     list-style-type: none;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
   }
   
   .menu-item {
-
     padding: 16px;
   }
   .dropdown:hover {
