@@ -1,25 +1,39 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-
- .articles {
-    display: flex;
-  }
-  
-  div > div {
+.dropdown{
+    position: relative;
+    display: block;
     margin: 16px;
-    width: 150px;
-    height: 100px;
-    background-color: beige;
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
+display: inline-block;
+color: white;
+cursor: pointer;
+}
+.menu-list{
+    position: absolute;
+    left: 0;    
+    right: 0;
+    top: 50px;
+    margin:0;
+    padding: 0;
+    background-color: lightcyan;
+    display: none;
+    color: black;
+    min-width: 120px;
+    list-style-type: none;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
-  .cropped {
-    overflow: hidden;
+  .menu-item {
+    padding: 16px;
   }
-  .both-scrolls {
-    overflow: scroll;
+  .dropdown:hover {
+    opacity: 1;
   }
-  .vertical-scroll {
-    overflow: auto;
-  }
+  .dropdown:hover .menu-list {
+    display: block;
   
+    font-size: 16px;
+  }
+  .menu-list:hover {
+    background-color: ghostwhite;
+  }
