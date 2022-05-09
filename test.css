@@ -31,7 +31,7 @@ box-sizing: border-box;
   z-index: 1;
 }
 .menu-item:nth-child(2){
-bottom: 2px;
+  margin: 1px;
 }
 .menu-item{
   padding: 16px;
