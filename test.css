@@ -1,28 +1,24 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
 * {
     box-sizing: border-box;
-}
-
-
-  
+  }
   .dropdown {
     position: relative;
+    margin: 16px;
     padding: 16px;
     display: block;
     background-color: darkgreen;
     opacity: 0.8;
+  
     display: inline-block;
     color: white;
+  
     cursor: pointer;
   }
   .menu-list {
     position: absolute;
-    top: 40px;
     left: 0;
     right: 0;
+    top: px;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
@@ -41,6 +37,7 @@
   }
   .dropdown:hover .menu-list {
     display: block;
+  
     font-size: 16px;
   }
   .menu-list:hover {
