@@ -4,8 +4,10 @@
  */
 * {
     box-sizing: border-box;
-    
-  }
+}
+
+
+  
   .dropdown {
     position: relative;
     margin: 16px;
@@ -21,7 +23,6 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 50px;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
