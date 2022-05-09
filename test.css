@@ -18,7 +18,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 51x;
+    top: 51px;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
@@ -27,6 +27,7 @@
     min-width: 120px;
     list-style-type: none;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: ;
   }
   
   .menu-item {
