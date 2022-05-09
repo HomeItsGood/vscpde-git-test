@@ -5,13 +5,15 @@
 * {
   box-sizing: border-box;
 }
-.dropdown {
+.menu-button{
   position: relative;
-  margin: 16px;
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
-  display: inline-block;
+}
+.dropdown {
+ 
+  margin: 16px;
   color: white;
   cursor: pointer;
   
