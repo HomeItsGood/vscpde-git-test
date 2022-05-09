@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 .dropdown {
+  line-height: center;
   position: relative;
   margin: 16px;
   padding: 16px;
@@ -29,7 +30,7 @@
   min-width: 120px;
   list-style-type: none;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  line-height: center;
+ 
 }
 
 .menu-item {
