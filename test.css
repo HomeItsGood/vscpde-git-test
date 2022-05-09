@@ -25,7 +25,7 @@ box-sizing: border-box;
   background-color: lightcyan;
   display: none;
   color: black;
-  min-width: 120px;
+  min-width: 121px;
   list-style-type: none;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
