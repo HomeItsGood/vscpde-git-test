@@ -2,7 +2,9 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-
+*{
+box-sizing: border-box;
+}
 .dropdown {
   position: relative;
   margin: 16px;
@@ -15,12 +17,11 @@
 }
 .menu-list {
   position: absolute;
-  align-items: center;
+  padding: 0;
   left: 0;
   right: 0;
-  top: 50px;
+  top: 51px;
   margin: 0;
-  padding: 0;
   background-color: lightcyan;
   display: none;
   color: black;
@@ -30,7 +31,6 @@
   z-index: 1;
 }
 .menu-item{
-
   padding: 16px;
 }
 .dropdown:hover {
