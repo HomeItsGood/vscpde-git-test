@@ -18,7 +18,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0;
+    margin: 0 0 016px;
     padding: 0;
     background-color: lightcyan;
     display: none;
@@ -42,6 +42,5 @@
   }
   .menu-list:hover {
     background-color: ghostwhite;
-    opacity: 1;
   }
   
