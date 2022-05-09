@@ -25,13 +25,13 @@ box-sizing: border-box;
   background-color: lightcyan;
   display: none;
   color: black;
-  min-width: 121px;
+  min-width: 120px;
   list-style-type: none;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .menu-item:nth-child(2){
-  left: 1px;
+bottom: 2px;
 }
 .menu-item{
   padding: 16px;
