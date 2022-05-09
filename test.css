@@ -2,25 +2,14 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
- div {
-  margin: 16px;
+ * {
+  box-sizing: content-box;
 }
-.text {
-  position: relative;
+.gallery {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
 }
-.tooltip {
-  background-color: grey;
-  color: white;
-  border-radius: 4px;
-  padding: 8px;
-  position: absolute;
-  display: none;
-  bottom: -40px;
-  left: 0px;
-}
-.text:hover .tooltip {
-  display: block;
-}
-.text_item {
-  border-bottom: 1px black dotted;
+img {
+  margin: 8px;
 }
