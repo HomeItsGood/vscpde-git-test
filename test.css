@@ -18,13 +18,12 @@
   cursor: pointer;
 }
 .menu-list {
-  height: 150px;
+  padding-left: 0;
   position: absolute;
   left: 0;
   right: 0;
   top: 50px;
   margin: 0;
-  padding: 0;
   background-color: lightcyan;
   display: none;
   color: black;
