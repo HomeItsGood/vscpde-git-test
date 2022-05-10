@@ -11,25 +11,23 @@
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
-
   display: inline-block;
   color: white;
-
   cursor: pointer;
 }
 .menu-list {
-  padding-left: 0;
+  padding: 0;
   position: absolute;
   left: 0;
   right: 0;
-  top: 50px;
+  top: 40px;
   margin: 0;
   background-color: lightcyan;
   display: none;
   color: black;
   min-width: 120px;
   list-style-type: none;
-  /* box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .menu-item {
@@ -40,7 +38,6 @@
 }
 .dropdown:hover .menu-list {
   display: block;
-
   font-size: 16px;
 }
 .menu-list:hover {
