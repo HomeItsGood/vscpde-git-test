@@ -11,7 +11,7 @@
 
   display: inline-block;
   color: white;
-
+height: 50px;
   cursor: pointer;
 }
 .menu-list {
@@ -37,7 +37,6 @@
 }
 .dropdown:hover .menu-list {
   display: block;
-
   font-size: 16px;
 }
 .menu-list:hover {
