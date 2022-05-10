@@ -9,13 +9,10 @@
   position: relative;
   margin: 16px;
   padding: 16px;
-  display: block;
   background-color: darkgreen;
   opacity: 0.8;
-
   display: inline-block;
   color: white;
-height: 50px;
   cursor: pointer;
 }
 .menu-list {
@@ -26,7 +23,7 @@ height: 50px;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
-  display: none;
+  /* display: none; */
   color: black;
   min-width: 120px;
   list-style-type: none;
