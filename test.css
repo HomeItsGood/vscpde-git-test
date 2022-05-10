@@ -9,7 +9,6 @@
   position: relative;
   margin: 16px;
   padding: 16px;
-  display: block;
   background-color: darkgreen;
   opacity: 0.8;
 
@@ -35,7 +34,7 @@
 }
 
 .menu-item {
-  height: 18px;
+  line-height: inherit;
   padding: 16px;
 }
 .dropdown:hover {
