@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
-  body{
-height: 82px;
-  }
-
 .dropdown {
   position: relative;
   margin: 16px;
@@ -38,7 +33,7 @@ height: 82px;
   padding: 16px;
 }
 .dropdown:hover {
-  /* opacity: 1; */
+  opacity: 1;
 }
 .dropdown:hover .menu-list {
   display: block;
