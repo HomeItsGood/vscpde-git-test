@@ -1,19 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
 .dropdown {
+  display: inline-block;
   position: relative;
   margin: 16px;
   padding: 16px;
   display: block;
   background-color: darkgreen;
   opacity: 0.8;
-
-  display: inline-block;
   color: white;
-
   cursor: pointer;
+
 }
+
 .menu-list {
   position: absolute;
   left: 0;
@@ -30,16 +31,19 @@
 }
 
 .menu-item {
+  font-size: 16px;
   padding: 16px;
 }
+
 .dropdown:hover {
   opacity: 1;
 }
+
 .dropdown:hover .menu-list {
   display: block;
-
   font-size: 16px;
 }
+
 .menu-list:hover {
   background-color: ghostwhite;
 }
