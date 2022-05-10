@@ -30,6 +30,7 @@
 }
 
 .menu-item {
+  height: 50px;
   padding: 16px;
 }
 .dropdown:hover {
