@@ -2,27 +2,18 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-* {
-  box-sizing: border-box;
+.list {
+  list-style-type: none;
+  font-size: 1.5em;
 }
-html {
-  font-style: Verdana;
+
+.first {
+  text-decoration: overline red;
 }
-h1 {
-  font-size: 74px !important;
-text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 50%;
-  margin: auto !important;
+.second {
+  text-decoration: line-through;
 }
-div {
-  
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 200px;
+
+.third {
+  text-decoration: underline green;
 }
