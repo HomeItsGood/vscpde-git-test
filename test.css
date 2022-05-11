@@ -2,18 +2,18 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-.list {
-  list-style-type: none;
-  font-size: 1.5em;
+.mountains{
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-position: center;
+  background-clip: border-box;
+  background-size: cover;
 }
-
-.first {
-  text-decoration: overline red;
-}
-.second {
-  text-decoration: line-through;
-}
-
-.third {
-  text-decoration: underline green;
+.text{
+  padding-top: 32px;
 }
