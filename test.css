@@ -14,7 +14,6 @@ body {
   margin: 32px;
 }
 h1 {
-  width: 64px;
   word-spacing: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -22,17 +21,17 @@ h1 {
 p {
   line-height: 28px;
 }
-.technology {
+.tech {
   font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 80%;
   text-decoration: underline;
 }
-
 .translation{
   color: grey;
 }
-a{
+
+.a {
   text-decoration: none;
 }
