@@ -12,11 +12,12 @@ body {
 }
 
 .container {
+  width: 64px;
+
   margin: 32px;
 }
 
 h1 {
-  letter-spacing: 5px;
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
