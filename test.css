@@ -16,6 +16,7 @@
   cursor: pointer;
 }
 .menu-list {
+  height: 150px;
   position: absolute;
   left: 0;
   right: 0;
