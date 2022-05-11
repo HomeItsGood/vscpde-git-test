@@ -5,7 +5,7 @@
 * {
   box-sizing: border-box;
 }
-body {
+html {
   font-style: Verdana;
 }
 h1 {
@@ -15,9 +15,10 @@ text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 50%;
-  margin: 0;
+  margin: 16px auto;
 }
 div {
+  
   height: 200px;
   background-color: coral;
   color: white;
