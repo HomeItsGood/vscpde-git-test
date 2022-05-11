@@ -18,5 +18,22 @@
   text-decoration: underline green;
 }
 h1{
-  letter-spacing: ;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  text-decoration: lowercase;
+}
+p{
+  line-height: 20px;
+}
+.section{
+  margin: 32px;
+}
+.technology{
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+.translation{
+  color: gray;
+  text-decoration: none;
 }
