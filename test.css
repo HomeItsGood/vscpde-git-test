@@ -16,6 +16,7 @@ body {
 }
 
 h1 {
+  letter-spacing: 5px;
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
