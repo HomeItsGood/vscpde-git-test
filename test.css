@@ -2,35 +2,26 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-*{
+* {
   box-sizing: border-box;
 }
-html {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-}
-section {
-  margin: 32px;
+body {
+  font-style: Verdana;
 }
 h1 {
-  word-spacing: 20px;
+  font-size: 74px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 50%;
+  margin: auto;
+}
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
   text-transform: uppercase;
   text-align: center;
-}
-p {
-  line-height: 28px;
-}
-.technology {
-  font-weight: 900;
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 80%;
-  text-decoration: underline;
-}
-
-.translation{
-  color: grey;
-}
-a{
-  text-decoration: none;
+  line-height: 200px;
 }
