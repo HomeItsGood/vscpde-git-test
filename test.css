@@ -11,8 +11,8 @@
   opacity: 0.8;
   background-color:darkgreen;
   padding: 16px;
-  display: inline-block;
-  font-size: 16px;cursor: pointer;
+  font-size: 16px;
+  cursor: pointer;
   border:none;
 }
 .menu-list {
