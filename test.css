@@ -24,12 +24,9 @@ p {
   line-height: 28px;
 }
 .tech {
-  width: 64px;
-
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 24px;
-  opacity: 80%;
   text-decoration: underline;
 }
 .reference {
