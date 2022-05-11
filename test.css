@@ -17,6 +17,7 @@
   height: 50px;
 }
 .menu-list {
+  letter-spacing: normal;
   line-height: baseline;
   position: absolute;
   left: 0;
