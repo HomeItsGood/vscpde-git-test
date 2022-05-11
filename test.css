@@ -15,7 +15,6 @@
   display: inline-block;
   color: white;
   cursor: pointer;
-  font-size: 16px;
 }
 .menu-list {
   position: absolute;
@@ -41,6 +40,7 @@
 }
 .dropdown:hover .menu-list {
   display: block;
+  font-size: 16px;
   
 }
 .menu-list:hover {
