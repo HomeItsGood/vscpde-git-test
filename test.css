@@ -1,21 +1,32 @@
+* {
+  box-sizing: border-box;
+}
 
-h1{
-  word-spacing: 20px;
-  letter-spacing: 5px;
-  text-decoration: lowercase;
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
-p{
-  line-height: 20px;
-}
-.section{
+.container {
   margin: 32px;
 }
-.technology{
-  font-weight: 900;
+h1 {
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  line-height: 28px;
+}
+.tech {
+  font-weight: bold;
   letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
   text-decoration: underline;
 }
-.translation{
-  color: gray;
+.reference {
   text-decoration: none;
+}
+.translate {
+  color: grey;
 }
