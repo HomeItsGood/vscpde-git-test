@@ -17,10 +17,11 @@
   height: 50px;
 }
 .menu-list {
+  line-height: baseline;
   position: absolute;
   left: 0;
   right: 0;
-  top: 51px;
+  top: 50px;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
