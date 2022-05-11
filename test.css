@@ -9,13 +9,13 @@ html {
   font-style: Verdana;
 }
 h1 {
-  font-size: 74px;
+  font-size: 74px !important;
 text-align: center;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 50%;
-  margin: 16px auto;
+  margin: auto !important;
 }
 div {
   
