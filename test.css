@@ -1,48 +1,15 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-* {
-  box-sizing: border-box;
-}
-.menu-button{
-  bottom: 1px;
-  display: block;
-  color:white;
-  opacity: 0.8;
-  background-color:darkgreen;
-  padding: 16px;
-  font-size: 16px;
-  cursor: pointer;
-  border:none;
-}
-.menu-list {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  background-color: lightcyan;
-  display: none;
-  color: black;
-  min-width: 120px;
+.list {
   list-style-type: none;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-.dropdown {
-  position: relative;
-display: inline-block;
-  margin: 16px;
- 
+  font-size: 1.5em;
 }
 
-.menu-item {
-  padding: 16px;
+.first {
+  text-decoration: overline red;
 }
-  .menu-button:hover {
-  opacity: 1;
+.second {
+  text-decoration: line-through;
 }
-.dropdown:hover .menu-list {
-  display: block;
-}
-.menu-list:hover {
-  background-color: ghostwhite;
+
+.third {
+  text-decoration: underline green;
 }
