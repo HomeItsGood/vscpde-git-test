@@ -9,8 +9,8 @@ body {
   font-style: Verdana;
 }
 h1 {
+  text-align: center;
   font-size: 74px;
-
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
