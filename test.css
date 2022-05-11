@@ -14,7 +14,6 @@
   font-size: 16px;
   cursor: pointer;
   border:none;
-  height: 50px;
 }
 .menu-list {
   position: absolute;
@@ -45,8 +44,6 @@ display: inline-block;
 }
 .dropdown:hover .menu-list {
   display: block;
-
-  font-size: 16px;
 }
 .menu-list:hover {
   background-color: ghostwhite;
