@@ -14,10 +14,11 @@ body {
   margin: 32px;
 }
 h1 {
-  width: 64px;
+  letter-spacing: 20px;
   text-align: center;
   word-spacing: 20px;
   text-transform: uppercase;
+
 }
 p {
   line-height: 28px;
