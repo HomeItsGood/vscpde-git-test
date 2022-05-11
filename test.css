@@ -1,13 +1,5 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-* {
-  box-sizing: border-box;
-}
 
 body {
-  
   font-family: Roboto, sans-serif;
   font-size: 18px;
 }
@@ -20,18 +12,19 @@ h1 {
   text-align: center;
 }
 p {
-  
   line-height: 28px;
 }
-.tech {
-  font-weight: bold;
+.technology {
+  font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
+  opacity: 80%;
   text-decoration: underline;
 }
-.reference {
-  text-decoration: none;
-}
-.translate {
+
+.translation{
   color: grey;
+}
+a{
+  text-decoration: none;
 }
