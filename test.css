@@ -14,12 +14,13 @@
   display: inline-block;
   color: white;
   cursor: pointer;
+  height: 50px;
 }
 .menu-list {
   position: absolute;
   left: 0;
   right: 0;
-  top: 48px;
+  top: 52px;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
