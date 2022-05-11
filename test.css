@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
 }
@@ -17,16 +21,15 @@ h1 {
 p {
   line-height: 28px;
 }
-.tech {
+..technology {
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 80%;
   text-decoration: underline;
 }
-.reference {
-  text-decoration: none;
-}
+
 .translate {
   color: grey;
+  text-decoration: none;
 }
