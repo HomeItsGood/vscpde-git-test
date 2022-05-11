@@ -39,7 +39,7 @@ display: inline-block;
 .menu-item {
   padding: 16px;
 }
-  .dropdown:hover {
+  .menu-button:hover {
   opacity: 1;
 }
 .dropdown:hover .menu-list {
