@@ -2,7 +2,7 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -10,32 +10,25 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
 }
-
 .container {
-  width: 64px;
-
   margin: 32px;
 }
-
 h1 {
-  word-spacing: 20px;
   text-align: center;
+  word-spacing: 20px;
   text-transform: uppercase;
 }
-
 p {
   line-height: 28px;
 }
-
-.technology {
-  font-weight: bold;
+.technology{
+  font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 80%;
   text-decoration: underline;
 }
-
-.translation {
+.translation{
   color: grey;
 }
 
