@@ -21,7 +21,7 @@ h1 {
 p {
   line-height: 28px;
 }
-..technology {
+.technology {
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 24px;
@@ -29,7 +29,9 @@ p {
   text-decoration: underline;
 }
 
-.translate {
+.translation{
   color: grey;
+}
+a{
   text-decoration: none;
 }
