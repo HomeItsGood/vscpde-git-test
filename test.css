@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
 }
@@ -28,6 +32,8 @@
 }
 
 .menu-item {
+  height: 100%;
+
   padding: 16px;
 }
 .dropdown:hover {
