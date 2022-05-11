@@ -16,6 +16,7 @@
   cursor: pointer;
 }
 .menu-list {
+  height: 151px;
   position: absolute;
   left: 0;
   right: 0;
@@ -32,11 +33,9 @@
 }
 
 .menu-item {
-  height: 100%;
-
   padding: 16px;
 }
-.dropdown:hover {
+  .dropdown:hover {
   opacity: 1;
 }
 .dropdown:hover .menu-list {
