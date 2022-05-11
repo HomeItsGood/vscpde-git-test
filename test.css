@@ -35,7 +35,6 @@
   padding: 16px;
 }
 .dropdown:hover {
-  display: block;
   opacity: 1;
 }
 .dropdown:hover .menu-list {
