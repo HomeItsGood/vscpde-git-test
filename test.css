@@ -16,10 +16,8 @@ h1 {
   text-overflow: ellipsis;
   width: 50%;
   margin: 16px auto;
-  height: 36px;
 }
 div {
-  height: 200px;
   background-color: coral;
   color: white;
   text-transform: uppercase;
