@@ -1,7 +1,29 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-div{
+* {
+  box-sizing: border-box;
+}
+input[type='checkbox'] {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.checkmark {
+  width: 25px;
+  height: 25px;
+  background-color: #d3d3d3;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+}
+
+.checkbox {
+  display: inline-block;
   margin: 16px;
+  padding-left: 35px;
+  position: relative;
+  font-size: 24px;
+}
+.checkbox input:checked + .checkmark {
+  background-color: #006400;
 }
