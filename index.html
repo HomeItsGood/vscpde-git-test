@@ -11,20 +11,25 @@
       crossorigin="anonymous"
     />
     <style>
-      .video-main {
-        padding-top: 200px;
-        width: 500px;
+      .youtube-video {
         display: block;
-        margin: auto;
+        margin: 100px auto;
+
+        width: 500px;
+        height: 400px;
       }
     </style>
   </head>
   <body>
-    <video
-      class="video-main"
-      controls
-      poster="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/poster.jpg"
-      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4"
-    ></video>
+    <iframe
+      class="youtube-video"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/C8JyvzU0CXU"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>
