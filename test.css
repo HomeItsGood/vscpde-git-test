@@ -2,29 +2,7 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-.image-container{
-  display: flex;
-justify-content: center;
-position: relative;
+div{
+  margin: 16px;
 }
-.image{
-max-width: 100%;
-}
-.image-button{
-  position: absolute;
-  top: calc(50% - 25px);
-  left: calc(50% - 100px);
-  text-align: center;
-  line-height: 50px;
-  width: 200px;
-  height: 50px;
-  background-color: bisque;
-  font-weight: 700;
-  font-size: 12px;
-  text-transform: uppercase;
-  opacity: 0.5;
-}
-.image-button:hover{
-opacity: 1;
-cursor: pointer;
-}
+
