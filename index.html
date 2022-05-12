@@ -10,41 +10,21 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="test.css" />
+    <style>
+      .video-main {
+        padding-top: 200px;
+        width: 500px;
+        display: block;
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
-    <div class="image-container">
-      <img
-        class="big-picture"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="Land and tree"
-      />
-    </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          class="opacity-filter"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="forest"
-        />
-        <figcaption class="caption">Opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="blur-filter"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="forest"
-        />
-        <figcaption class="caption">Blur</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="invert-filter"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="forest"
-        />
-        <figcaption class="caption">Invert</figcaption>
-      </figure>
-    </div>
+    <video
+      class="video-main"
+      controls
+      poster="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/poster.jpg"
+      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4"
+    ></video>
   </body>
 </html>
