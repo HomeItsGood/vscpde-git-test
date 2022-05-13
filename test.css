@@ -7,7 +7,6 @@
  }
 table, td, th{
   border: 1px solid black;
-  border-spacing: 10px;
   border-collapse: collapse;
 }
 td, th{
@@ -15,8 +14,6 @@ td, th{
   text-align: right;
 }
 table{
+  margin: 16px;
   width: 500px;
-}
-div{
-  overflow-x: auto;
 }
