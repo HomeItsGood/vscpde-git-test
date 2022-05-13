@@ -1,19 +1,18 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
- *{
-   box-sizing: border-box;
- }
-table, td, th{
+* {
+  box-sizing: border-box;
+}
+table {
+  margin: 16px;
+  width: 500px;
+}
+table,
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
 }
-td, th{
+td,
+th {
   padding: 4px;
   text-align: right;
-}
-table{
-  margin: 16px;
-  width: 500px;
 }
