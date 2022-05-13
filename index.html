@@ -13,76 +13,114 @@
   </head>
 
   <body>
-  <form >
-    <div >
-      <input type="text" name="primaryLanguage" value="HTML" disabled>
-    </div>
-    <div>
-      <input type="checkbox" name="agree" unchecked>
-    </div>
-    <div>
-      <input type="checkbox" name="like" checked readonly>
-    </div>
-    <div>
-      <input type="color" name="favoriteColor" value="#ff7f50">
-    </div>
-    <div>
-      <input type="date" name="birthDate" value="2021-01-02">
-    </div>
-    <div>
-      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02"/>
-    </div>
-    <div>
-      <input type="email" name="email" placeholder="example@domain.com">
-    </div>
-    <div>
-      <input type="file" name="avatar">
-    </div>
+    <form>
       <div>
-<input type="month" name="startLearning" value="2020-01">
-    </div>
-    <div>
-      <input type="number" name="favoriteNumber" value="17">
-    </div>
-    <div >
-      <textarea
+        <input class type="text" name="primaryLanguage" value="HTML" disabled />
+      </div>
+      <div>
+        <input class type="checkbox" name="agree" unchecked />
+      </div>
+
+      <div>
+        <input class type="checkbox" name="like" checked readonly />
+      </div>
+      <div>
+        <input class type="color" name="favouriteColor" value="#ff7f50" />
+      </div>
+      <div>
+        <input class type="date" name="birthDate" value="2021-01-02" />
+      </div>
+      <div>
+        <input
+          class
+          type="datetime-local"
+          name="birthTime"
+          value="2024-10-04T13:02"
+        />
+      </div>
+      <div>
+        <input
+          class
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
+        />
+      </div>
+      <div><input class type="file" name="avatar" /></div>
+      <div>
+        <input class type="month" name="startLearning" value="2020-01" />
+      </div>
+      <div>
+        <input
+          class="input-class"
+          type="number"
+          name="favouriteNumber"
+          value="17"
+        />
+      </div>
+
+      <div>
+        <textarea
           name="story"
           cols="30"
           rows="5"
           placeholder="A long time ago..."
         ></textarea>
-    </div>
-    <div class="">
-<input type="password" name="password" value="secret">
-    </div>
-    <div class="language">
-      <input type="radio" name="language" value="html">HTML
-      <input type="radio" name="language" value="css">CSS
-      <input type="radio" name="language" value="javascript">JavaSCript
-    </div>
-<div>
-  <input type="range" name="learningProgress" value="30">
-</div>
-<div>
-  <select name="framework">
-  <option value="react">React</option>
-  <option value="jquery">jQuery</option>
-  <option value="bootstrap">Bootstrap</option>
-  </select>
-</div>
-<div>
-  <input type="search" name="search" placeholder="Type first letters...">
-</div>
-<div>
-  <input type="time" name="lunchEnd" value="14:01">
-</div>
-<input type="url" name="website" placeholder="https://website.com" required>
-<div>
-  <div>
-    <input type="week" name="birthWeek" value="2021-W51" />
-  </div>
-  <div>
-    <button type="submit">Save</button>
-  </div>
+      </div>
+
+      <div>
+        <input type="password" name="password" value="secret" />
+      </div>
+
+      <div class="languages">
+        <input type="radio" id="radio_html" name="language" value="html" />
+        <label for="radio_html">HTML</label>
+        <input type="radio" id="radio_css" name="language" value="css" checked />
+        <label for="radio_css">CSS</label>
+        <input
+          type="radio"
+          id="radio-java-script"
+          name="language"
+          value="javascript"
+        />
+        <label for="radio-java-script">JavaScript</label>
+      </div>
+      <div>
+        <input type="range" name="learningProgress" value="30" />
+      </div>
+      <div>
+        <select name="framework">
+          <option value="react">React</option>
+          <option selected value="jquery">jQuery</option>
+          <option value="bootstrap">Bootstrap</option>
+        </select>
+      </div>
+      <div>
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
+      </div>
+      <div>
+        <input class type="time" name="lunchEnd" value="14:01" />
+      </div>
+      <div>
+        <input
+          class
+          type="url"
+          name="website"
+          placeholder="https://website.com"
+          required
+        />
+      </div>
+      <div>
+        <input class type="week" name="birthWeek" value="2021-W51" />
+      </div>
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
   </body>
 </html>
