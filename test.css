@@ -21,6 +21,7 @@ table tr:nth-child(even) td:nth-child(odd) {
 }
 
 table tr:nth-child(odd) td:nth-child(even) {
+  border-top:1px solid black; 
   background-color: #000;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
@@ -30,11 +31,14 @@ table tr td:first-child,
 table tr td:last-child {
   background-color: #fff !important;
   border-bottom: none !important;
+  border-top: none !important;
+
 }
 
 .letter td {
   background-color: #fff !important;
   border-right: none !important;
+  border-left: none !important;
 }
 table tr:nth-child(odd) td:first-child,
 table tr:nth-child(even) td:first-child,
