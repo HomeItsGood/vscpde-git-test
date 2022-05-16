@@ -37,7 +37,7 @@ table tr td:last-child {
   border-right: none !important;
 }
 
-table tr:nth-child(odd) td:first-child,
+table tr:nth-child(even) td:first-child,
 table tr:nth-child(even) td:last-child {
   border-right: 1px solid black;
   border-left: 1px solid black;
