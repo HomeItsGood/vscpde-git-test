@@ -1,8 +1,9 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
-}
-th {
-  font-weight: 500;
 }
 
 table {
@@ -11,35 +12,35 @@ table {
   border-collapse: collapse;
 }
 
-th {
-  padding: 16px;
-}
 td {
-  text-align: center;
-  width: 50px;
   height: 50px;
+  width: 50px;
+  text-align: center;
 }
+
 table tr:nth-child(even) td:nth-child(odd) {
-  background: #000;
+  background-color: #000;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
 }
+
 table tr:nth-child(odd) td:nth-child(even) {
   background-color: #000;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
+
 table tr td:first-child,
 table tr td:last-child {
-  background-color: #fff ;
-  border-bottom: none 
+  background-color: #fff !important;
+  border-bottom: none !important;
 }
 
 .list td {
-  background-color: #fff ;
-  border-right: none 
+  background-color: #fff !important;
+  border-right: none !important;
 }
-.list:first-child td {
-  border-bottom: 1px solid black;
-}
+
 table tr:nth-child(even) td:first-child,
 table tr:nth-child(even) td:last-child {
   border-right: 1px solid black;
@@ -50,11 +51,11 @@ table tr:nth-child(odd) td:last-child {
   border-left: 1px solid black;
 }
 
-.letter:first-child td {
+.list:first-child td {
   border-bottom: 1px solid black;
 }
 
-.letter:last-child td {
+.list:last-child td {
   border-top: 1px solid black;
 }
 
@@ -62,5 +63,5 @@ table tr:nth-child(odd) td:last-child {
 .list td:last-child,
 .list:last-child td:first-child,
 .list:last-child td:last-child {
-  border: none ;
+  border: none !important;
 }
