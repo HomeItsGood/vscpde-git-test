@@ -5,17 +5,20 @@
 * {
   box-sizing: border-box;
 }
+th {
+  font-weight: 500;
+}
+
 
 table {
   border: 1px solid black;
   border-collapse: collapse;
+  margin: 16px;
 }
 .table-footer {
-  font-weight: 300;
+  margin:20px;
 }
-th {
-  padding: 16px;
-}
+
 td {
   border: 1px solid black;
   width: 50px;
