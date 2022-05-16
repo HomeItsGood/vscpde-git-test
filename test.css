@@ -36,7 +36,7 @@ table tr td:last-child {
   background-color: #fff !important;
   border-right: none !important;
 }
-
+table tr:nth-child(odd) td:first-child,
 table tr:nth-child(even) td:first-child,
 table tr:nth-child(even) td:last-child {
   border-right: 1px solid black;
