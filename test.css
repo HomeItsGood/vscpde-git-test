@@ -1,11 +1,15 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
 }
 
 table {
   margin: 16px;
-  border: 1px solid #000;
-  border-collapse: collapse;
+  border-collapse: collapse ;
+  border-spacing: 0;
 }
 
 td {
@@ -16,13 +20,10 @@ td {
 
 table tr:nth-child(even) td:nth-child(odd) {
   background-color: #000;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
 }
 
 table tr:nth-child(odd) td:nth-child(even) {
   background-color: #000;
-  border-right: 1px solid black;
 }
 
 table tr td:first-child,
@@ -39,7 +40,6 @@ table tr td:last-child {
 table tr:nth-child(even) td:first-child,
 table tr:nth-child(even) td:last-child {
   border-right: 1px solid black;
-  border-left: 1px solid black;
 }
 
 table tr:nth-child(odd) td:last-child {
