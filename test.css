@@ -11,9 +11,10 @@ table {
   border: 1px solid #000;
   border-collapse: collapse;
 }
-
+tr td:nth-child(3){
+  padding-left: 0;
+}
 td {
-  padding: 0;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -22,9 +23,14 @@ td {
 table tr:nth-child(even) td:nth-child(odd) {
   background-color: #000;
 }
+tr td:nth-child(3) {
+  padding-top: 50px;
+  padding-left: 0;
+}
 
 table tr:nth-child(odd) td:nth-child(even) {
   background-color: #000;
+  padding-top: 0;
 }
 
 table tr td:first-child,
@@ -41,7 +47,6 @@ table tr td:last-child {
 table tr:nth-child(even) td:first-child,
 table tr:nth-child(even) td:last-child {
   border-right: 1px solid black;
-  border-left: 1px solid black;
 }
 
 table tr:nth-child(odd) td:last-child {
