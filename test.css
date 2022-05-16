@@ -1,9 +1,6 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-
- 
+* {
+  box-sizing: border-box;
+}
 
 
 table {
@@ -11,9 +8,6 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
-
-
 td {
   text-align: center;
   border: 1px solid black;
@@ -25,7 +19,4 @@ table tr:nth-child(odd) td:nth-child(odd) {
 }
 table tr:nth-child(even) td:nth-child(even) {
   background-color: black;
-}
-table tr td:nth-child(even){
-background-color: none;
 }
