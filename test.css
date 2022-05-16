@@ -16,6 +16,7 @@ td {
   height: 50px;
   width: 50px;
   text-align: center;
+  padding: 0;
 }
 
 table tr:nth-child(even) td:nth-child(odd) {
@@ -56,8 +57,8 @@ table tr:nth-child(odd) td:last-child {
 }
 
 .list:last-child td {
-  border-top: 1px solid black;
-}
+  border-top: 1px solid bllist;}
+
 
 .list td:first-child,
 .list td:last-child,
