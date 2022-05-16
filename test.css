@@ -57,7 +57,7 @@ table tr:nth-child(odd) td:last-child {
 }
 
 .list:last-child td {
-  border-top: 1px solid bllist;}
+  border-top: 1px solid black;}
 
 
 .list td:first-child,
