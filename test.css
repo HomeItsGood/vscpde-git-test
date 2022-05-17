@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
 }
@@ -27,8 +31,7 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;
-  animation: blinking 2s ;
-  animation: moving 2s;
+  animation: moving 2s, blinking 2s ;
   animation-iteration-count: infinite;
   animation-direction: reverse;
 }
