@@ -1,19 +1,32 @@
-.row {
-  display: flex;
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
+.custom-button {
+  line-height: 50px;
+  margin: 64px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
+.custom-button:hover {
+  color: darkcyan;
+}
+.bird-icon {
+  vertical-align: middle;
 
-.small-bird {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
+  fill: white;
 }
-
-.large-bird {
-  width: 320px;
-  height: 320px;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
+.bird-icon:hover {
+  fill: green;
 }
