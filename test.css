@@ -1,21 +1,18 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-.row{
-  display:flex;
+.row {
+  display: flex;
 }
- 
- .small-bird{
-height: 64px;
-width: 64px;
+
+.small-bird {
+  width: 64px;
+  height: 64px;
 }
-.large-bird{
-  height: 320px;
+
+.large-bird {
   width: 320px;
+  height: 320px;
 }
-.colum{
-  display:flex;
+.column {
+  display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
