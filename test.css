@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.icons {
+.all-icons {
   display: flex;
   justify-content: space-around;
 }
