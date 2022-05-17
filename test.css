@@ -1,6 +1,11 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
   box-sizing: border-box;
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -8,16 +13,19 @@
   width: 100vw;
   height: 100vh;
 }
+
 .spinner {
   position: relative;
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
 }
+
 .spinner-text {
   animation: blinking 2s;
   animation-iteration-count: infinite;
 }
+
 .rect {
   position: absolute;
   left: 24px;
@@ -29,11 +37,13 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 @keyframes moving {
   from {
     left: 0;
     opacity: 1;
   }
+
   to {
     left: 70px;
   }
@@ -43,9 +53,11 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
