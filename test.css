@@ -1,35 +1,22 @@
-
-* {
- 
-    box-sizing: border-box;
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
+ html {
+    font-size: 18px;
   }
-  .content {
-    display: flex;
-    min-height: 100vh;
+  .font-in-px {
+    font-size: 27px;
   }
-  .gallery {
-    width: 80%;
-    display: flex;
-    background-color: #fa5;
+  .font-in-em {
+    font-size: 1.5em;
   }
-  .image {
-    max-width: 100%;
-    margin: auto;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  .font-in-vw {
+    font-size: 5vw;
   }
-  .ideas {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5af;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
+  .font-in-percents {
+    font-size: 150%;
   }
-  .idea {
-    padding: 4px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  .font-in-rem {
+    font-size: 1.5rem;
   }
