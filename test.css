@@ -21,7 +21,6 @@
     display: flex;
     width: 20%;
     background-color: #5fa;
-    text-transform: uppercase;
 }
 
 .image {
@@ -40,5 +39,6 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    text-transform: uppercase;
 
 }
