@@ -1,44 +1,35 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-* {
-    box-sizing: border-box;
-}
 
-.content {
+* {
+ 
+    box-sizing: border-box;
+  }
+  .content {
     display: flex;
     min-height: 100vh;
-}
-
-.gallery {
+  }
+  .gallery {
     width: 80%;
+    display: flex;
     background-color: #fa5;
-    display: flex;
-}
-
-.ideas {
-    display: flex;
-    width: 20%;
-    background-color: #5fa;
-}
-
-.image {
-    margin: auto;
+  }
+  .image {
     max-width: 100%;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
-
-}
-
-.idea {
     margin: auto;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 4px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .ideas {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5af;
     color: #fff;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    font-weight: 700;
     text-transform: uppercase;
-
-}
+  }
+  .idea {
+    padding: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
