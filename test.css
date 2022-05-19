@@ -2,32 +2,42 @@
  *   Copyright (c) 2022 
  *   All rights reserved.
  */
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    height: 100vh;
+.navigation{
+    background-color: #ff7f50;
+    min-height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
 }
-
-.square {
-    height: 100px;
-    width: 100px;
-    margin: 8px;
-    background-color: #8a2be2;
+.products-list{
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
 }
-
-@media screen and (max-width: 600px) {
-    .square {
-        background-color: #ff7f50;
-    }
+.news{
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+    
 }
-
-@media screen and (orientation: portrait) {
-    .container {
-        flex-direction: column;
-    }
+span{
+    color: #faebd7;
+    padding: 4px;
+    border-radius: 4px;
+    margin: auto;
+    text-transform: lowercase;
+}
+@media screen and (min-width: 600px) {
+ .products{ 
+     display: flex;
+    flex: 2;
+}
+}
+@media screen and (min-width: 900px){
+  .content{ 
+    display: flex; 
+width: 100vw;
+margin-left:calc(50% - 50vw);
+}
 }
