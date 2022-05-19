@@ -82,9 +82,11 @@
   
   .nav-list-item {
     display: flex;
+    align-items: center;
     height: 2em;
     margin: 0.5em 0;
     background-color: #808080;
+    line-height: 2em;
   }
   
   .nav-list-link {
