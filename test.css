@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 * {
     box-sizing: border-box;
   }
@@ -89,6 +93,7 @@
   }
   
   .nav-list-link {
+      padding: 0.5em;
     color: white;
     margin: 0.5em;
     text-decoration: none;
