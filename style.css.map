@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["header.scss","veriables.scss","index.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;ADKA;EAEI,kBCCU;;;ACNd;EACE;;;AAGF;EACE","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["index.scss","breakpoints.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;ADMA;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;EACA;;;AAEF;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;AACA;EACE;;AAEE;EACE;EACA;EACA;EACA;EACA;EACA;;;AAKR;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EACA","file":"style.css"}
