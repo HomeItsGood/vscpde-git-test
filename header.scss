@@ -9,15 +9,9 @@
     background-color: $color-grey;
 }
 
-.header {
-    height: $unit * 7;
-    background-color: $color-grey;
-}
-
 .nav-list {
     margin: 0;
     padding: 0;
-
     display: flex;
     list-style-type: none;
     align-items: center;
