@@ -1,28 +1,21 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-@import 'breakpoints.scss';
-
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
 }
 
 .menu {
-  padding-left: 0 3em 0;
+  display: flex;
   margin: 0;
+  padding: 0 3em 0;
   text-transform: uppercase;
 }
 .menu__item:hover {
   background-color: #9acd32;
   cursor: pointer;
 }
-
 .menu__item {
   position: relative;
   padding: 0 8px;
@@ -53,6 +46,5 @@ html {
   list-style-type: none;
   &__item:hover {
     color: black;
-    cursor: pointer;
   }
 }
