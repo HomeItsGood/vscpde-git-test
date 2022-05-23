@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["index.scss","header.scss","veriables.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;ADKA;EAEI,kBCCS;;;ADCb;EACI;EACA;EACA;EACA;EACA;EACA;EACA,OCNmB;EDOnB;;AACA;EACI,kBCZU;EDaV,SCfD;EDgBC;EACA,eCXQ;EDYR;;AACA;EACI,kBCnBI;;ADsBZ;EACI;;;ADxBR;EACA;;;AAEA;EACI","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["header.scss","veriables.scss","index.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;ADKA;EAEI,kBCCU;;;ACNd;EACE;;;AAGF;EACE","file":"style.css"}

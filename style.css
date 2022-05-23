@@ -1,49 +1,18 @@
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-/*
- *   Copyright (c) 2022 
- *   All rights reserved.
- */
-.header {
-  background-color: #eee;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 25 |     color: $text-color-second;
+ *    |            ^^^^^^^^^^^^^^^^^^
+ *    '
+ *   header.scss 25:12  @import
+ *   index.scss 5:9     root stylesheet */
 
-.nav-list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  height: 56px;
-  color: #fff;
-  font-weight: 700;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 25 \2502      color: $text-color-second;\d\a    \2502             ^^^^^^^^^^^^^^^^^^\a    \2575 \a   header.scss 25:12  @import\a   index.scss 5:9     root stylesheet";
 }
-.nav-list__item {
-  background-color: #ff7f50;
-  padding: 8px;
-  margin-left: 16px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.nav-list__item_selected {
-  background-color: #fb0;
-}
-.nav-list__item:hover {
-  opacity: 0.7;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */
