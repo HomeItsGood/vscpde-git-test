@@ -1,13 +1,15 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
 .container {
   display: flex;
   flex-direction: column;
 }
-
 .products {
   display: flex;
   flex-direction: column;
 }
-
 .navigation {
   display: flex;
   flex: 1;
