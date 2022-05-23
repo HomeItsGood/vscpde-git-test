@@ -27,7 +27,7 @@
 .nav-list__item {
   background-color: #ff7f50;
   padding: 8px;
-  margin: 16px;
+  margin-left: 16px;
   border-radius: 4px;
   cursor: pointer;
 }
