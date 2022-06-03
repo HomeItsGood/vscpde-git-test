@@ -2,7 +2,7 @@
 
 ### [Site link](https://github.com/HomeItsGood/My_first-project.git)
 
-### [ Git Hub Page](https://github.com/HomeItsGood/My_first-project.git)
+### [ Git Hub Page](https://github.com/HomeItsGood/My_first-project.)
 
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
