@@ -1,8 +1,8 @@
 # Layout Sample Project
 
-### [Site link](
+### [Site link](https://github.com/HomeItsGood/My_first-project.git)
 
-### [ Git Hub Page]()
+### [ Git Hub Page](https://github.com/HomeItsGood/My_first-project.git)
 
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
